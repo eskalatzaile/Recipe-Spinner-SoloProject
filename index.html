@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-text-box">
+            <h1>Recipe Spinner</h1> 
+            <p class="subtext">For when you can't decide what to eat</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+        <div class="selectors-container">
+    <!-- SELECTORS CONTAINER -->
+        <h1 class="select-by">Select by...</h1>
+        <div class="select-all-recipes hover-effect">
+            <input 
+                type="checkbox"
+                id="select-all-recipes"
+                name="select-all-recipes"
+                class="input-select-all"
+                value="all"
+            >
+            <label for="select-all-recipes">Choose from all recipes!</label>
+        </div>  
+
+        <!-- MEAL SELECTOR -->
+            <div>
+                <div class="border-top">
+                    <h2>Meal</h2>
+                    <div class="select-all-btn hover-effect" id="all-meals">
+                        <input  
+                            id="select-all-meals-btn" 
+                            type="checkbox"
+                            name="select-all"
+                            class="input-select-all"
+                            value="all"
+                        >
+                        <label for="select-all-meals-btn">Select All</label>
+                    </div>
+                </div>
+                <div class="selectors-box" id="meals-selectors">
+
+                </div>
+            </div>
+
+            <!-- INGREDIENTS SELECTOR -->
+            <div>
+                <div class="border-top">
+                    <h2>Ingredients</h2>
+                    <div class="select-all-btn all-ingredients hover-effect">
+                        <input  
+                            id="select-all-ingredients-btn" 
+                            type="checkbox"
+                            name="select-all"
+                            class="input-select-all"
+                            value="all"
+                        >
+                        <label for="select-all-ingredients-btn">Select All</label>
+                    </div>
+                </div>
+                <div class="selectors-box" id="ingredients-selectors">
+
+                </div>
+            </div>        
+
+            <!-- CUISINE SELECTOR -->
+            <div>
+                <div class="border-top">
+                    <h2>Cuisine</h2>
+                    <div class="select-all-btn all-cuisines hover-effect">
+                        <input  
+                            id="select-all-cuisines-btn" 
+                            type="checkbox"
+                            name="select-all"
+                            class="input-select-all"
+                            value="all"
+                        >
+                        <label for="select-all-cuisines-btn">Select All</label>
+                    </div> 
+                </div>
+                <div class="selectors-box" id="cuisines-selectors">
+
+                </div>
+            </div>   
+        </div>
+        </section>
+    <!-- RECIPE CONTAINER -->
+    
+        <section>
+            <div class="render-recipe-container">
+                <button class="render-recipe-btn hover-effect" id="render-recipe-btn">Shuffle Recipe!</button>
+            </div>
+            
+            <div id="recipe-container">
+                
+            </div>
+        </section>
+
+    </div>
+
+<!-- Select Something Message Pop Up -->
+    <div class="pop-up" id="pop-up">
+        <p>Select an option to get a random recipe!</p>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>

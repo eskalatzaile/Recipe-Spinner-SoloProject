@@ -1,0 +1,338 @@
+
+export const recipesData = [
+    {
+        recipeTitle: ['French Toast'],
+        recipeImg: ['/recipeImages/french-toast.jpg'],
+        alt: ['French toast'],
+        mealType: ['breakfast'],
+        cuisine: ['american'],
+        ingredients: ['sweets', 'fruit'],
+        ingredientsList: ['eggs', 'cinnamon', 'cream', 'french bread', 'maple syrup', 'butter', 'fruits', 'whipped cream'],
+        instructions: ['Mix the eggs, cinnamon, and cream.',
+                'Soak the french bread in the mixture.',
+                'Butter a nonstick or castiron pan at medium-high heat.',
+                'Toast the soaked french bread on the pan.',
+                'Once crispy on both sides, take off pan and add maple syrup and whatever fruit.'
+            ],
+        tags: ['breakfast', 'american', 'sweets', 'fruit'],
+    },
+
+    {
+        recipeTitle: ["Pancakes"],
+        recipeImg: ['/recipeImages/pancakes.jpg'],
+        mealType: ['breakfast'],
+        cuisine: ['american'],
+        ingredients: ['sweets', 'fruit'],
+        ingredientsList: ['flour', 'sugar', 'baking powder', 'baking soda', 'salt', 'buttermilk', 'milk', 'eggs', 'butter', 'maple syrup', 'fruit', 'whipped cream'],
+        instructions: ['Mix the dry ingredients and mix the wet ingredients separately.',
+                'Lightly butter a nonstick or castiron pan.',
+                'Mix dry and wet ingredients.',
+                'Scoop batter into pan and cook until browned on one side and flip.',
+                'Cook other side until browned.',
+                'Plate and add whatever toppings you like!'
+            ],
+        tags: ['breakfast', 'american', 'sweets', 'fruit'],
+    },
+
+    {
+        recipeTitle: ["Yogurt Parfait"],
+        recipeImg: ['/recipeImages/yogurt-parfait.jpg'],
+        mealType: ['breakfast'],
+        cuisine: ['american'],
+        ingredients: ['sweets', 'fruit'],
+        ingredientsList: ['yogurt', 'granola', 'fruit'],
+        instructions: ['Add yogurt, granola, fruit, and whatever else to a bowl :)'],
+        tags: ['breakfast', 'american', 'sweets', 'fruit'],
+    },
+
+    {
+        recipeTitle: ["Swedish Pancakes"],
+        recipeImg: ['/recipeImages/crepes.jpg'],
+        mealType: ['breakfast'],
+        cuisine: ['swedish'],
+        ingredients: ['sweets', 'fruit'],
+        ingredientsList: ['eggs', 'milk', 'butter', 'flour', 'salt', 'sugar', 'vanilla', 'maple syrup', 'fruit', 'whipped cream'],
+        instructions: ['Beat eggs and add milk, flour, salt, sugar, and melted butter.', 
+                    'Warm nonstick pan and a little butter.',
+                    'Pour a thin layer of batter in pan and move pan till batter is spread all over.',
+                    'When edges are bubbled up and browned, flip.',
+                    'When browned on other side, plate pancake and add whatever toppings you like.'
+            ],
+        tags: ['breakfast', 'swedish', 'sweets', 'fruit'],
+        },
+
+    {
+        recipeTitle: ["Biscuits"],
+        recipeImg: ['/recipeImages/biscuits.jpg'],
+        mealType: ['breakfast'],
+        cuisine: ['american'],
+        ingredients: ['baked'],
+        ingredientsList: ['flour', 'baking powder', 'baking soda', 'salt', 'buttermilk', 'butter'],
+        instructions: ['Preheat oven to 425 degrees F.',
+                'Mix dry ingredients.',
+                'Add cold butter slices to flour mixture and blend in a food processor or pastry blender until mixture resembles coarse crumbs.',
+                'Add cold buttermilk and stir until combined.',
+                'Fold rectangle in thirds and flatten. Repeat twice more.',
+                'Roll dough out and cut into circles. Or mold pieces by hand into circles.',
+                'Transfer biscuits to prepared baking sheet.',
+                'Bake in oven for 15 minutes and till brown.'
+            ],
+        tags: ['breakfast', 'american', 'baked'],
+    },
+
+    {
+        recipeTitle: ["Cheese Croissant"],
+        recipeImg: ['/recipeImages/crepes.jpg'],
+        mealType: ['breakfast'],
+        cuisine: ['american'],
+        ingredients: ['sweets', 'baked'],
+        ingredientsList: ['Cheese croissants from Trader Joes'],
+        instructions: ['Follow instructions on box!'],
+        tags: ['breakfast', 'american', 'baked', 'sweets'],
+    },
+
+    {
+        recipeTitle: ["Chinese Beef Rolls"],
+        recipeImg: ['/recipeImages/dough-hands.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['asian'],
+        ingredients: ['beef'],
+        ingredientsList: ['beef', 'scallion pancakes', 'Obachans Japanese BBQ sauce', 'sesame oil', 'soy sauce', 'green onions', 'sesame seeds', 'shaoxing wine'],
+        instructions: ['Cook scallion pancakes as per instructions.',
+                'Saute sliced beef with soy sauce, sesame seeds, green onions, shaoxing wine, and a little sesame oil.',
+                'Put cooked beef in scallion pancake and add sesame seeds, green onions, and japanese BBQ sauce.',
+                'Roll up and enjoy!'
+            ],
+        tags: ['lunch', 'dinner', 'asian', 'beef'],
+    },
+    
+    {
+        recipeTitle: ["Green Chile Beef Stew"],
+        recipeImg: ['/recipeImages/chili-stew.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['american'],
+        ingredients: ['beef', 'vegetables'],
+        ingredientsList: ['green chile', 'ground beef', 'chicken stock', 'garlic', 'onion', 'potatoes', 'tomatoes', ''],
+        instructions: [],
+        tags: ['lunch', 'dinner', 'american', 'beef', 'vegetables'],
+    },
+    
+    {
+        recipeTitle: ["Shrimp Tacos"],
+        recipeImg: ['/recipeImages/shrimp-tacos.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['american'],
+        ingredients: ['seafood'],
+        ingredientsList: ['shrimp', 'tortillas', 'cilantro', 'purple cabbage', 'korean gochujang mayo', 'lime cilantro avocado sauce', 'limes'],
+        instructions: ['Bake shrimp according to instructions.',
+                'Warm tortillas.',
+                'Add shrimp, purple cabbage, cilantro, and whatever sauce to tortillas.',
+                'Serve and add limes if wanted.'
+            ],
+        tags: ['lunch', 'dinner', 'american', 'seafood'],
+    },
+    
+    {
+        recipeTitle: ["Potstickers/Dumplings"],
+        recipeImg: ['/recipeImages/dumplings.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['asian'],
+        ingredients: ['beef', 'pork', 'chicken', 'vegetables'],
+        ingredientsList: ['dumplings', 'soy sauce', 'sesame oil', 'chinese vinegar'],
+        instructions: ['Cook dumplings in a nonstick pan till crispy on sides.',
+                'Mix soy sauce, sesame oil, and chinese vinegar to make dipping sauce.',
+                'Enjoy!'
+            ],
+        tags: ['lunch', 'dinner', 'asian', 'beef', 'pork', 'chicken', 'vegetables'],
+    },
+    
+    {
+        recipeTitle: ["Steak"],
+        recipeImg: ['/recipeImages/steak.jpg'],
+        mealType: ['dinner'],
+        cuisine: ['american'],
+        ingredients: ['beef'],
+        ingredientsList: ['steak', 'rosemary', 'thyme', 'garlic', 'butter', 'olive oil', 'salt', 'pepper'],
+        instructions: ['Dry the steaks with a paper towel and puncture all over with a fork on both sides.',
+                'Salt and pepper the steak generously.',
+                'Heat a cast iron pan with olive oil on high.',
+                'Sear the steak till cripsy and brown on both sides and edges. Each side should take 2-3 minutes.',
+                'Turn heat down to medium-low and add rosemary, thyme, garlic, and butter.',
+                'Cook for 15 to 20 minutes, flipping intermittently, until done to preference.',
+                'Take off heat and plate. Enjoy!'
+            ],
+        tags: ['dinner', 'american', 'beef'],
+    },
+    
+    {
+        recipeTitle: ["Asian Breaded Fish"],
+        recipeImg: ['/recipeImages/fish-market.jpg'],
+        mealType: ['dinner'],
+        cuisine: ['asian'],
+        ingredients: ['seafood'],
+        ingredientsList: ['fish', 'bread crumbs', 'eggs', 'cornstarch', 'water', 'ginger', 'garlic', 'soy sauce', 'chinese vinegar', 'sugar', 'vegetable oil', 'salt', 'pepper'],
+        instructions: ['Beat eggs in a bowl. In separate containers, set out cornstarch and bread crumbs.',
+                'Dip fish in cornstarch, then egg mixture, then bread crumbs. Set aside for frying.',
+                'Heat vegetable oil in a deep pan. When hot, gently set fish in oil and fry till brown on all sides.',
+                'Pour out three-quarters of the oil and then add ginger and garlic.',
+                'Once ginger and garlic are fragrant and browned, add sugar, soy sauce and chinese vinegar. Stir for a few minutes.',
+                'Mix some cornstarch and water in a bowl.',
+                'Slowly add cornstarch mixture to pan, mixing consistently. The sauce should start thickening.',
+                'Once fully integrated and thickened, pour the sauce over the fried fish.'
+            ],
+        tags: ['dinner', 'asian', 'seafood'],
+    },
+    
+    {
+        recipeTitle: ["Fried Chicken"],
+        recipeImg: ['/recipeImages/fried-chicken.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['american'],
+        ingredients: ['chicken'],
+        ingredientsList: ['chicken', 'bread crumbs', 'eggs', 'vegetable oil', 'flour', 'salt', 'pepper', 'paprika', 'sauce of choice'],
+        instructions: ['Beat eggs in a bowl. In a separate container, mix flour with salt, pepper, paprika, and other wanted spices. In another container, set out bread crumbs.',
+                'Dip chicken in egg mixture, then flour mixture, then egg again, and finally in the bread crumbs. Set aside for frying.',
+                'Heat a pan or pot with vegetable oil.',
+                'Gently place the breaded chicken in the hot oil and wait till golden brown on all sides.',
+                'Place chicken on top of paper towels to take up extra oil.',
+                'Add whatever sauce preferred. Enjoy!'
+            ],
+        tags: ['lunch', 'dinner', 'american', 'chicken'],
+    },
+    
+    {
+        recipeTitle: ["Pizza"],
+        recipeImg: ['/recipeImages/pizza.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['american', 'italian'],
+        ingredients: ['beef', 'pork', 'chicken'],
+        ingredientsList: ['dough', ],
+        instructions: [],
+        tags: ['lunch', 'dinner', 'american', 'italian', 'beef', 'pork', 'chicken'],
+    },
+    
+    {
+        recipeTitle: ["Ramen"],
+        recipeImg: ['/recipeImages/ramen.jpg'],
+        mealType: ['dinner'],
+        cuisine: ['asian'],
+        ingredients: ['pork', 'vegetables'],
+        ingredientsList: ['none'],
+        instructions: ['Go to Magokoro! ;p'],
+        tags: ['dinner', 'asian', 'pork', 'vegetables'],
+    },
+
+    {
+        recipeTitle: ["Japanese Curry"],
+        recipeImg: ['/recipeImages/curry.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['asian'],
+        ingredients: ['pork', 'chicken'],
+        ingredientsList: ['none'],
+        instructions: ['Go to Magokoro! :p',
+            'Or fry some chicken or pork, make some japanese curry sauce, and make some rice.',
+            'Combine and enjoy!'
+        ],
+        tags: ['lunch', 'dinner', 'asian', 'pork', 'chicken'],
+    },
+
+    {
+        recipeTitle: ["Eggplant Parmigiana"],
+        recipeImg: ['/recipeImages/eggplant.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['italian'],
+        ingredients: ['vegetables'],
+        ingredientsList: ['none'],
+        instructions: ['Go to Olive Garden! :p'],
+        tags: ['lunch', 'dinner', 'italian', 'vegetables'],
+    },
+    
+    {
+        recipeTitle: ["Pasta w/ Marinara"],
+        recipeImg: ['/recipeImages/pasta.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['italian'],
+        ingredients: ['beef'],
+        ingredientsList: ['pasta', 'ground beef', 'marinara sauce', 'garlic', 'onions', 'salt', 'pepper'],
+        instructions: ['Saute the garlic and onions.',
+                'Add the ground beef, salt, and pepper and cook till fully browned.',
+                'Add marinara sauce of choice.',
+                'Boil pasta of choice.',
+                'Mix marinara and pasta.',
+                'Dish out and enjoy!'
+            ],
+        tags: ['lunch', 'dinner', 'italian', 'beef'],
+    },
+        
+    {
+        recipeTitle: ["Enchiladas"],
+        recipeImg: ['/recipeImages/enchiladas.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['mexican'],
+        ingredients: ['chicken'],
+        ingredientsList: ['chicken', 'cheese', 'corn tortillas', 'onion', 'garlic', 'sour cream', 'green chile', 'cream of chicken soup', 'spanish rice', 'beans', 'Los Palomas Enchilada Sauce'],
+        instructions: ['Pre-heat oven at 350 degrees F.',
+                'Boil the chicken till cooked and shred it. Also saute the onions and garlic.',
+                'Mix chicken, onions, garlic, sour cream, green chile, and cream of chicken soup.',
+                'Layer corn tortillas and chicken mixture, alternating between both for two layers.',
+                'Add cheese to the top.',
+                'Cover in tin foil and bake at 350 for 30 minutes or until bubbly.',
+                'Heat us and add Los Palomas sauce at the end! Salt and pepper to taste.'
+            ],
+        tags: ['lunch', 'dinner', 'mexican', 'chicken'],
+    },
+        
+    {
+        recipeTitle: ["Tamales"],
+        recipeImg: ['/recipeImages/tamales.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['mexican'],
+        ingredients: ['beef', 'pork', 'chicken'],
+        ingredientsList: ['tamales'],
+        instructions: ['Cook tamales based on instructions.'],
+        tags: ['lunch', 'dinner', 'mexican', 'beef', 'pork', 'chicken'],
+    },
+    
+    {
+        recipeTitle: ["Chicken Salad"],
+        recipeImg: ['/recipeImages/chicken-salad-sandwich.jpg'],
+        mealType: ['lunch', 'dinner'],
+        cuisine: ['american'],
+        ingredients: ['chicken', 'fruit'],
+        ingredientsList: ['chicken', 'mayo', 'salt', 'tarragon', 'grapes', 'bread', 'lettuce'],
+        instructions: ['Boil chicken and shred. Or use pre-cooked chicken.',
+                'Mix chicken, mayo, salt, tarragon, and grapes.',
+                'Serve by itself or put it in a sandwich with lettuce. '
+            ],
+        tags: ['lunch', 'dinner', 'american', 'chicken', 'fruit'],
+    },
+        
+    {
+        recipeTitle: ["Snickerdoodle Cookies"],
+        recipeImg: ['/recipeImages/snickerdoodle.jpg'],
+        mealType: ['dessert'],
+        cuisine: ['american'],
+        ingredients: ['sweets', 'baked'],
+        ingredientsList: ['eggs', 'butter', 'sugar', 'vanilla', 'flour', 'cream of tartar', 'baking soda', 'salt', 'cinnamon'],
+        instructions: ['Preheat oven to 350 degrees F.', 
+                'Cream butter and sugar until light and fluffy.',
+                'Add vanilla, and eggs and cream for longer.',
+                'Stir in flour, cream of tartar, baking soda, and salt, just until combined'
+            ],
+        tags: ['dessert', 'american', 'sweets'],
+    },
+
+]
+
+const emptyTemplate = [
+    {
+        recipeTitle: [""],
+        recipeImg: ['/recipeImages/.jpg'],
+        mealType: [],
+        cuisine: [''],
+        ingredients: [],
+        ingredientsList: [],
+        instructions: [],
+        tags: [],
+    },
+]

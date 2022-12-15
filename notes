@@ -1,0 +1,93 @@
+
+
+FORMAT FOR RECIPES
+
+<div class="recipe-container"> 
+    <header>
+        <h1 class="recipe-title">Recipe Title</h1>
+        <img src="/recipeImages/curry.jpg" class="recipe-image">
+    </header>
+    
+    <div class="recipe-information-box">
+        <div class="ingredients-box">
+            <h2>Ingredients</h2>
+            <div>
+                <ul>
+                    <li>Ingredient</li>
+                </ul>
+            </div>
+        </div>
+        <div class="directions-box">
+            <h2>Directions</h2>
+            <div class="ordered-list">
+                <ol type="1">
+                    <li>Do this then do this then do this then do this then do this</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+FORMAT FOR SELECTORS: 
+
+INGREDIENTS: 
+<div class="selector-checkbox">
+    <label for="${ingredient}">Breakfast</label>
+    <input 
+        type="checkbox"
+        id="${ingredient}"
+        value="${ingredient}"
+        name="ingredients"
+    >
+</div>
+
+CUISINES:
+<div class="selector-checkbox">
+    <label for="${cuisine}">Breakfast</label>
+    <input 
+        type="checkbox"
+        id="${cuisine}"
+        value="${cuisine}"
+        name="cuisines"
+    >
+</div>
+
+
+HTML removed to insert JS function instead
+<!-- <div class="selector-checkbox meal-class" id="meal-class">
+    <label for="breakfast">Breakfast</label>
+    <input 
+        type="checkbox"
+        id="breakfast"
+        value="breakfast"
+        name="meal"
+    >
+</div>
+<div class="selector-checkbox meal-class" id="meal-class">
+    <label for="lunch">Lunch</label>
+    <input 
+        type="checkbox"
+        id="lunch"
+        value="lunch"
+        name="meal"
+    >
+</div>
+<div class="selector-checkbox meal-class" id="meal-class">
+    <label for="dinner">Dinner</label>
+    <input 
+        type="checkbox"
+        id="dinner"
+        value="dinner"
+        name="meal"
+    >
+</div>
+<div class="selector-checkbox meal-class" id="meal-class">
+    <label for="dessert">Dessert</label>
+    <input 
+        type="checkbox"
+        id="dessert"
+        value="dessert"
+        name="meal"
+    >
+</div> -->
