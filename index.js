@@ -192,6 +192,8 @@ function animate(){
             const ingredientsHtml = renderIngredients(recipe)
             const instructionsHtml = renderInstructions(recipe)
             
+            document.querySelector('.dash-container').style.display = 'none'
+
             recipeContainer.innerHTML =`
                 <div class="recipe-container"> 
                     <header>
